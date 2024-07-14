@@ -580,6 +580,9 @@ footer {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
+    .logo img {
+        width: 80%;
+    }
 
 
     .hero {
@@ -693,6 +696,10 @@ footer {
     }
     .footer-social {
         width: 46%;
+    }
+
+    .logo img {
+        width: 90%;
     }
 
 }
