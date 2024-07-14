@@ -84,7 +84,7 @@ nav {
 .burger div {
     width: 25px;
     height: 3px;
-    background: #fff;
+    background: black;
     margin: 5px;
     transition: all 0.3s;
 }
@@ -177,6 +177,10 @@ body.dark-mode .about-us p{
 
 body.dark-mode .stat-item{
    background-color: #555;
+}
+
+body.dark-mode .burger div{
+   background-color: #f8efef;
 }
 
 
@@ -546,7 +550,7 @@ footer {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 60px;
+        top: 0px;
         left: -100%;
         transition: all 0.5s;
         background: #c02f2f;
@@ -626,7 +630,7 @@ footer {
     
     .btn {
        
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .subdis {
@@ -661,6 +665,10 @@ footer {
         align-items: center;
     }
 
+    .footer-social{
+        width: 39%;
+    }
+
     /* .stat-item {
         width: 100%;
     } */
@@ -672,7 +680,7 @@ footer {
 
     .btn {
        
-        font-size: 11px;
+        font-size: 10px;
     }
     .footer-bottom {
         display: flex;
@@ -682,6 +690,9 @@ footer {
         border-top: 1px solid #ccc;
         width: 100%;
         justify-content: space-between;
+    }
+    .footer-social {
+        width: 46%;
     }
 
 }

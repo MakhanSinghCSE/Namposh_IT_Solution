@@ -15,3 +15,29 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 margin-top: 3%;
 border-radius: 10px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .course  h2 {
+        font-size: 15px;
+    }
+    .course p{
+        font-size: 12px;
+            }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .course  h2 {
+        font-size: 12px;
+    }
+
+    .course p{
+font-size: 10px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+}
