@@ -183,6 +183,10 @@ body.dark-mode .burger div{
    background-color: #f8efef;
 }
 
+body.dark-mode .footer-logo a{
+   background-color: #f8efef;
+}
+
 body.dark-mode .slider-wrapper .swiper-slide-button {
     color: #0d0c0c;
   }
@@ -333,6 +337,10 @@ footer {
 
 .footer-logo h2 {
     color: #00bfa5;
+}
+
+.footer-logo a {
+    color: Black;
 }
 
 .footer-links {
