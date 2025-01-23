@@ -140,7 +140,7 @@ body.dark-mode .dis{
 
 body.dark-mode .subdis{
     color: white;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(223, 216, 216);
 }
 
 body.dark-mode .footer-column{
@@ -298,7 +298,7 @@ body.dark-mode .slider-wrapper .swiper-slide-button {
 }
 
 .subdis{
-    width: 19%;
+    width: 22%;
     height: 220px;
     background-color: white;
     text-align: center;
